@@ -15,6 +15,8 @@ const (
 )
 
 func main() {
+	log.Println("DOLTDB Version 1.1")
+
 	info, err := os.Stat(dir)
 	handleError("could not stat data dir", err)
 
